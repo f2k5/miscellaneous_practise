@@ -37,14 +37,5 @@ def palindrome (text):
 			print("The word {} is not a palindrome.".format(text))
 			break
 
-
-
-
-
-
-
-
-
-
 if __name__ == "__main__":
 	main()
