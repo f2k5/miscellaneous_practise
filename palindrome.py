@@ -7,14 +7,12 @@ def main():
 def palindrome (text):
 	#remove any possible comma's:
 	x = text.split(",")
-	#print(x)
 	#rejoin after removing comma's:
 	x = "".join(x)
 	#remove any possible spaces:
 	x = x.split()
 	#rejoin after removing spaces:
 	x = "".join(x)
-	#print(x)
 
 	#if length of x is an even number:
 	if (len(x)) % 2 == 0:
