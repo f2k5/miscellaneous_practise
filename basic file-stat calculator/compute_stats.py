@@ -22,7 +22,3 @@ def compute_stats (date1, date2):
 	print("total_volume : {}".format(total_volume))
 
 compute_stats("20130311", "20130313")
-
-
-
-
