@@ -1,5 +1,12 @@
 def main():
-	num_vowels("aeiou")
+	list = "The antelope and the aardvark fell in love"
+	list = list.split()
+	#print(list)
+	new_list = []
+	for i in list:
+		if num_vowels(i) < 3:
+			new_list.append(i)
+	print(new_list)	
 
 def num_vowels(text):
 	vowels = 0
@@ -14,7 +21,7 @@ def num_vowels(text):
 			vowels += 1
 		elif x == "u" or x == "U":
 			vowels += 1
-	print("The word or phrase '{}' has {} vowels.".format(text, vowels))
+	return vowels
 
 if __name__ == "__main__":
 	main()
